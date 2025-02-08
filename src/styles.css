@@ -1,0 +1,163 @@
+/* Estilos generales de margen y font de texto */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f0f0f0; /* Color de fondo */
+  border-bottom: 1px solid #ccc; /* Borde inferior */
+}
+
+/* clase Logo */
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Acción al pasar el mouse (por ahora solo cambia color) */
+nav ul li a:hover {
+  color: #007bff; 
+}
+
+/* Estilos para el título de la sección */
+.titulo-seccion {
+  text-align: left;
+  margin-top: 160px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+.titulo-seccion h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+/* Estilos para el botón cuadrado (boton ver galeria) */
+.boton-cuadrado {
+  width: 150px; /* Ancho del botón */
+  height: 60px; /* Alto del botón */
+  background-color: #a0a0a0; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 8px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño del texto */
+  font-weight: bold; /* Texto en negrita */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  transition: background-color 0.3s ease; /* Transición suave */
+  /* Margenes */
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+/* Efecto al pasar el mouse */
+.boton-cuadrado:hover {
+  background-color: #0056b3; /* Cambia el color de fondo */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Aumenta la sombra */
+}
+
+/* Efecto al hacer clic */
+.boton-cuadrado:active {
+  background-color: #004080; /* Cambia el color de fondo */
+  transform: scale(0.95); /* Reduce ligeramente el tamaño */
+  scroll-behavior: smooth; /* Se supone que esto hace que haga scroll pero no lo he logrado */
+}
+
+/* Contenedor de rectángulos */
+.contenedor-rectangulos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+/* Estilos para cada rectángulo */
+.rectangulo {
+  display: flex; /* Utiliza flexbox para alinear los elementos horizontalmente */
+  align-items: center; /* Centra verticalmente los elementos */
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Estilos para el cuadrado */
+.cuadrado {
+  flex-shrink: 0; /* Evita que el cuadrado cambie de tamaño */
+  width: 150px; 
+  height: 150px; 
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  margin-right: 20px; /* Espacio entre el cuadrado y el texto */
+  overflow: hidden; /* Asegura que la imagen no se salga del cuadrado */
+}
+
+/* Estilos para la imagen dentro del cuadrado */
+.cuadrado img {
+    width: 100%; /* La imagen ocupa el 100% del ancho del cuadrado */
+    height: 100%; /* La imagen ocupa el 100% del alto del cuadrado */
+    object-fit: cover; /* Ajusta la imagen para cubrir el cuadrado sin distorsionarla */
+}
+
+/* Estilos para las secciones sin imagen */
+.rectangulo h2 {
+    font-size: 20px;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilos para las secciones con imagen */
+.rectangulo h3 {
+    font-size: 20px;
+    color: #007bff;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.rectangulo p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Estilos para el contenido de texto */
+.contenido-texto {
+  display: flex; 
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  justify-content: flex-start; /* Asegura que el contenido comience desde la parte superior */
+}
