@@ -161,3 +161,7 @@ nav ul li a:hover {
   flex-direction: column; /* Alinea los elementos verticalmente */
   justify-content: flex-start; /* Asegura que el contenido comience desde la parte superior */
 }
+
+p {
+  white-space: pre-line;
+}
