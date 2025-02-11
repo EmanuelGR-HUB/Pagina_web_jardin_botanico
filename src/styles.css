@@ -165,3 +165,12 @@ nav ul li a:hover {
 p {
   white-space: pre-line;
 }
+
+/* Estilos para el contenido de texto 2*/
+.contenido-texto-2 {
+  padding: 20px; /* Espacio interno desde todos los lados*/
+  font-size: 16px; /* Tamaño de las letras */
+  line-height: 2; /* Espaciado entre líneas */
+  margin: 0 auto; /* Centra el contenido */
+  max-width: 1000px; /* Se define el ancho máx*/
+}
