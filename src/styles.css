@@ -1,7 +1,11 @@
+/* Importar la fuente Trueno, del libro de marca */
+@import url('https://fonts.googleapis.com/css2?family=Trueno:wght@400;700&display=swap');
+
 /* Estilos generales de margen y font de texto */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Trueno', Arial, sans-serif;
+  background-color: #fbd81242;
 }
 
 /* Header */
@@ -10,8 +14,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #f0f0f0; /* Color de fondo */
-  border-bottom: 1px solid #ccc; /* Borde inferior */
+  background-color: #6dc067; /* Color de fondo */
+  border-bottom: 1px solid #034200; /* Borde inferior */
 }
 
 /* clase Logo */
@@ -53,7 +57,7 @@ nav ul li a:hover {
 /* Estilos para el título de la sección */
 .titulo-seccion {
   text-align: left;
-  margin-top: 160px;
+  margin-top: 50px;
   margin-bottom: 30px;
   margin-left: 40px;
 }
@@ -67,7 +71,7 @@ nav ul li a:hover {
 .boton-cuadrado {
   width: 150px; /* Ancho del botón */
   height: 60px; /* Alto del botón */
-  background-color: #a0a0a0; /* Color de fondo */
+  background-color: #6dc067; /* Color de fondo */
   color: white; /* Color del texto */
   border: none; /* Sin borde */
   border-radius: 8px; /* Bordes redondeados */
@@ -91,7 +95,6 @@ nav ul li a:hover {
 .boton-cuadrado:active {
   background-color: #004080; /* Cambia el color de fondo */
   transform: scale(0.95); /* Reduce ligeramente el tamaño */
-  scroll-behavior: smooth; /* Se supone que esto hace que haga scroll pero no lo he logrado */
 }
 
 /* Contenedor de rectángulos */
@@ -106,7 +109,7 @@ nav ul li a:hover {
 .rectangulo {
   display: flex; /* Utiliza flexbox para alinear los elementos horizontalmente */
   align-items: center; /* Centra verticalmente los elementos */
-  background-color: #f9f9f9;
+  background-color: #fbd81220;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
@@ -173,4 +176,43 @@ p {
   line-height: 2; /* Espaciado entre líneas */
   margin: 0 auto; /* Centra el contenido */
   max-width: 1000px; /* Se define el ancho máx*/
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #6dc067; /* Color de fondo */
+  border-bottom: 1px solid #ccc; /* Borde inferior */
+}
+
+/* Estilo para logos Farmacia y UCR */
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logos img {
+  max-width: 150px;
+  height: auto;
+}
+
+/* Estilos para centrar la imagen del jardín botánico */
+.centered-image {
+  text-align: center;
+
+}
+
+.centered-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilo necesario para hacer el scroll en la galería */
+html {
+  scroll-behavior: smooth;
 }
