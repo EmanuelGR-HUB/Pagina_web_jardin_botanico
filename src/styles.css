@@ -280,7 +280,7 @@ html {
 .cuadradoImagenesPlantas {
   flex-shrink: 0; /* Evita que el cuadrado cambie de tamaño */
   width: 700px; 
-  height: 750px; 
+  height: 525px; 
   background-color: #e0e0e0;
   border: 1px solid #ccc;
   border-radius: 8px; 
