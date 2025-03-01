@@ -1,10 +1,10 @@
 /* Importar la fuente Trueno, del libro de marca */
-@import url('https://fonts.googleapis.com/css2?family=Trueno:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/trueno-2');
 
 /* Estilos generales de margen y font de texto */
 body {
   margin: 0;
-  font-family: 'Trueno', Arial, sans-serif;
+  font-family: 'Trueno', sans-serif;
   background-color: #fbd81242;
 }
 
@@ -83,6 +83,7 @@ nav ul li a:hover {
   /* Margenes */
   margin-left: 50px;
   margin-bottom: 30px;
+  font-family: 'Trueno', sans-serif;
 }
 
 /* Efecto al pasar el mouse */
