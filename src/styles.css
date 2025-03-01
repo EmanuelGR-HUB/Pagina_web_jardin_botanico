@@ -275,3 +275,24 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+
+/* Estilos para el cuadrado que se usa para las plantas */
+.cuadradoImagenesPlantas {
+  flex-shrink: 0; /* Evita que el cuadrado cambie de tamaño */
+  width: 700px; 
+  height: 750px; 
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  margin-right: 20px; /* Espacio entre el cuadrado y el texto */
+  overflow: hidden; /* Asegura que la imagen no se salga del cuadrado */
+  display: inline-block; /* Permite que se puedan poner imágenes a la par */
+}
+
+/* Estilos para el contenedor para las imágenes de las plantas */
+.contenedorImagenesPlantas {
+  display: flex; /* Se usa flexbox */
+  justify-content: center; /* Se centra horizontalmente */
+  align-items: center; /* Se centra verticalmente */
+  height: 100vh; /* Se ajusta al 100% de la altura de la pantalla */
+}
