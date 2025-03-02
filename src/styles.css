@@ -297,3 +297,42 @@ html {
   align-items: center; /* Se centra verticalmente */
   height: 100vh; /* Se ajusta al 100% de la altura de la pantalla */
 }
+
+/* Estilos para el slider de imágenes automático */
+.slider-frame {
+  width: 700px; /* Ancho del slider */
+  height: auto; /* Alto del slider */
+  margin: 0; /* Margen superior e inferior */
+  overflow: hidden; /* Oculta las imágenes que se salen del slider */
+}
+
+.slider-frame ul {
+  display: flex; /* Utiliza flexbox para alinear las imágenes */
+  padding: 0; /* Elimina el padding */
+  width: 400%; /* Ancho total del slider */
+  
+  animation: slide 16s infinite alternate ease-in-out; /* Animación de desplazamiento */
+}
+
+.slider-frane li {
+  width: 100%; /* Ancho de cada imagen */
+  list-style: none; /* Elimina las viñetas */
+}
+
+.slider-frame img {
+  width: 100%; /* Ajusta el ancho de la imagen */
+}
+
+@keyframes slide { /* Animación de desplazamiento */
+  0% {margin-left: 0%;}
+  20% {margin-left: 0%;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
