@@ -8,6 +8,23 @@ body {
   background-color: #fbd81242;
 }
 
+/* Fondo con gradiente*/
+.gradient-background {
+  background: linear-gradient(100deg, #f8de95  15%, #f5f5dc 85%);
+  /*background: repeating-linear-gradient(45deg, #f8de95, #f8de95 10%, #f5f5dc 20%);*/
+}
+
+
+/* Gradiente del fondo */
+@keyframes backgroundGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 /* Header */
 header {
   display: flex;
